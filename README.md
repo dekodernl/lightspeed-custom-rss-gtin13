@@ -57,6 +57,6 @@ is available.
 {% set GTIN13 = product_id_12_long ~ d13 }
 
 {% endfor %}
-
+```
 
 *** ! CDATA>
