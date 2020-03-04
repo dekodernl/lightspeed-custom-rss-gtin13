@@ -122,3 +122,6 @@ is available.
 Please check the files:
 - custom-rss-feed-code.txt
 - custom-rss-feed-output.xml
+
+
+#gtin13 #converter #lightspeed #xml #rss #jinja
