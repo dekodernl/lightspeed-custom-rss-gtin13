@@ -120,4 +120,6 @@ is available.
 ```
 
 ### Full examples
-Please check the custom-rss-feed-code.txt ande custom-rss-feed-output.xml files.
+Please check the files:
+- custom-rss-feed-code.txt
+- custom-rss-feed-output.xml
