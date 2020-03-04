@@ -1,4 +1,4 @@
-# lightspeed-rss
+# Lightspeed Custom RSS GTIN-13 with calculated check digit
 When you need to convert a Lightspeed RSS feed product id that is not 
 compatible with a GTIN-13 code, for example for import into Facebook,
 conversion to this is not available by default. You can convert this
