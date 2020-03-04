@@ -68,7 +68,7 @@ is available.
         <link>{{ shop.domain }}</link>
         <description>{{ shop.description | cdata }}</description>
         {% for product in products %}
-      		{% set reverse_product_id = product.id | reverse ~ "000000000000" %}
+		{% set reverse_product_id = product.id | reverse ~ "000000000000" %}
       		{% product_id_12_long = reverse_product_id[:12] | reverse %}
       		{% set d1  = product_id_12_long[0:1]  * 1 %}
       		{% set d2  = product_id_12_long[1:1]  * 3 %}
@@ -85,12 +85,11 @@ is available.
       		{% set total = d1 + d2 + d3 + d4 + d5 + d6 + d7 + d8 + d9 + d10 + d11 + d12 %}
       		{% set d13 = (10 - total % 10) % 10 %}
       		{% set GTIN13 = product_id_12_long ~ d13 }
-          
-        	<item>
-            <g:id>{{ product.id }}</g:id>
-            <title>{{ product.fulltitle | cdata }}</title>
-				    <g:gtin>{{ GTIN13 | cdata }}</g:gtin>
-          </item>
+	<item>
+		<g:id>{{ product.id }}</g:id>
+		<title>{{ product.fulltitle | cdata }}</title>
+		<g:gtin>{{ GTIN13 | cdata }}</g:gtin>
+	</item>
         {% endfor %}
     </channel>
 </rss>
@@ -105,13 +104,13 @@ is available.
         <description><![CDATA[All your products are belong to us]]></description>
         <item>
         	<g:id>12345678</g:id>
-            <title>Aeroplane with wings</title>
-			<g:gtin>0000123456784</g:gtin>       	
+            	<title>Aeroplane with wings</title>
+		<g:gtin>0000123456784</g:gtin>       	
         </item>
         <item>
-        	<g:id>23456789</g:id>
-            <title>Cat with wings</title>
-			<g:gtin>0000234567898</g:gtin>       	
+		<g:id>23456789</g:id>
+		<title>Cat with wings</title>
+		<g:gtin>0000234567898</g:gtin>       	
         </item>
         <item>...</item>
         <item>...</item>
