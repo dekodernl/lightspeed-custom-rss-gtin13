@@ -95,7 +95,7 @@ is available.
     </channel>
 </rss>
 ```
-*** Short custom feed output
+### Short custom feed output
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
@@ -119,5 +119,5 @@ is available.
 </rss>
 ```
 
-*** Full examples
+### Full examples
 Please check the custom-rss-feed-code.txt ande custom-rss-feed-output.xml files.
