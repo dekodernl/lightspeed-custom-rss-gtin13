@@ -9,8 +9,8 @@ This is an international product-id format. The product-id contains of
 12 arbitrary selected numbers and a 13th check-digit. This check-digit 
 is calculated by multiplying every odd digit by 1 and every even digit 
 by 3. The sum of these multiplied digits is subtracted from the closest 
-higher number devidable by 10. For instance if the sum is 57 this is 
-subtracted from 60 thus 3 is the check-digit.
+higher number divisible by 10. For instance if the sum is 57 and this is 
+subtracted from 60 the result is 3 - which is the check-digit.
 
 ### How does the code-conversion work?
 Here is a step-by-step walk thru so you can learn and adapt if necessary.
