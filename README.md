@@ -59,7 +59,7 @@ is available.
 {% endfor %}
 ```
 
-*** Short custom feed example
+### Short custom feed example
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
